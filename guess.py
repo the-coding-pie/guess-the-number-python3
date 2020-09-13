@@ -33,4 +33,4 @@ if guess == secret_number:
   print("You guessed it right!")
 else:
   print("You lose!")
-  print("The number I thought was " + str(guess))
+  print("The number I thought was " + str(secret_number))
