@@ -1,8 +1,8 @@
-# random module to generate random numbers
-import random
+# randint module from random for generating ranodm numbers
+from random import randint
 
 # generate a random secret_number
-secret_number = random.randint(1, 20)
+secret_number = randint(1, 20)
 # how many chances
 chances_left = 5
 
@@ -19,7 +19,7 @@ for i in range(1, 6):
   elif guess > secret_number:
     print("Guess is too high!")
   else:
-    # user guessed it correctly, so jump out of the loop
+    print("Horray you win!")
     break
 
   # before taking next iteration
